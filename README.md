@@ -96,9 +96,9 @@ http://localhost:5000
 
 ---
 
-## 🔍 API Endpoints
+##  API Endpoints
 
-### ✅ Health Check
+###  Health Check
 
 **GET /**
 
@@ -114,7 +114,7 @@ curl http://localhost:5000/
 
 ---
 
-### 🌼 Predict Iris Species
+###  Predict Iris Species
 
 **POST /predict**
 
@@ -126,7 +126,7 @@ curl http://localhost:5000/
 }
 ```
 
-> ⚠️ The `features` list must contain exactly **4 numeric values**.
+>  The `features` list must contain exactly **4 numeric values**.
 
 #### Response
 
@@ -136,7 +136,7 @@ curl http://localhost:5000/
 }
 ```
 
-### 🧾 Prediction Mapping
+### Prediction Mapping
 
 | Label | Species    |
 | ----- | ---------- |
@@ -146,7 +146,7 @@ curl http://localhost:5000/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python 3.x
 * Flask
@@ -156,7 +156,7 @@ curl http://localhost:5000/
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 From `requirements.txt`:
 
